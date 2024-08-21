@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+// 1. Abstracts
+@use "abstracts/variables";
+@use "abstracts/functions";
+@use "abstracts/mixins";
+
+// 1. Vendors
+// @use 'vendors/normalize';
+
+// 2. Base
+@use "base/base";
+@use "base/fonts";
+@use "base/helpers";
+@use "base/typography";
+
+// 3. Layout-related sections
+@use "layout/layout";
+@use "layout/header";
+@use "layout/sidebar";
+@use "layout/activity-section";
+@use "layout/average-section";
+@use "layout/metrics-section";
+@use "layout/performance-section";
+@use "layout/score-section";
+
+// 4. Components
+@use "components/switch";
+@use "components/metrics";
+
+// 5. Pages
+@use "pages/profil";
+@use "pages/setting";
+
+// 6. Themes
+@use "themes/default";

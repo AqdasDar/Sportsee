@@ -1,0 +1,57 @@
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  display: block;
+  border-top: 0.3rem solid transparent;
+  border-bottom: 0.3rem solid transparent;
+  padding: 0.7rem;
+
+  &.active {
+    border-bottom-color: white;
+  }
+}
+
+.icon {
+  display: block;
+  width: 100%;
+}
+
+.error,
+.no-data,
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  width: 100%;
+  height: 100%;
+
+  font-size: 2rem;
+  font-weight: 700;
+
+  padding: 1rem;
+}
+
+.error {
+  color: var(--primary-color);
+}
+
+.no-data {
+  color: var(--secondary-color);
+}
+
+.loading {
+  font-size: 1em;
+  color: var(--secondary-color);
+}
